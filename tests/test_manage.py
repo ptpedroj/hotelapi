@@ -5,5 +5,6 @@ class TestSettings:
         assert hasattr(mgr, "app")
 
 
+
     def test_manager(self):
         assert hasattr(mgr, "manager")

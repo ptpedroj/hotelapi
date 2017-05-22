@@ -6,6 +6,7 @@ from flask_script import Manager, Server
 from hotelapi.application import create_app
 
 app = create_app()
+
 manager = Manager(app)
 
 manager.add_command("runserver", Server(
